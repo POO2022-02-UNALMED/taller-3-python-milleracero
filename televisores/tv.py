@@ -66,7 +66,7 @@ class TV:
         self._precio=precio
     
     def setNumTV(num):
-        TV.__numTV = num
+        TV._numTV = num
     
     def getNumTV():
-        return TV.__numTV
+        return TV._numTV

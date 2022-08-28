@@ -29,6 +29,6 @@ class Control:
     def setCanal(self,canal):
         self._TV.setCanal(canal)
 
-    def enlazar(self,TV):
-        self._TV=TV
+    def enlazar(self,tv):
+        self._TV=tv
         self._TV.setControl(self)
